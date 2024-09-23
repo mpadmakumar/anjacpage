@@ -1,0 +1,175 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+
+.loginpage{
+    position: absolute;
+    width:540px;
+    height: 650px;
+    border: 2px solid black;
+    left: 450px;
+    border-radius: 10px;
+    top: 10px;
+    background-color: white;
+    
+    
+}
+.logo{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+h1{
+    display: inline;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #216ec7;
+}
+h2{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #2663b3;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+h5{
+    font-size: 24px;
+    margin-left: 40px;
+    
+}
+.formcontent{
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+label{
+    font-size: 20px;
+    color: gray;
+}
+i{
+    color: red;
+}
+.input{
+    margin-top: 10px;
+    height: 28px;
+    width: 440px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input:focus{
+    outline: 0px;
+}
+select{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 35px;
+    width:140px ;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.loginbtn{
+
+    margin-top: 50px;
+    height: 40px;
+    width: 460px;
+    background-color: hsl(214, 89%, 55%);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.h3{
+    margin-top: 50px;
+    font-size: 19px;
+    color: gray;
+}
+a{
+    color: black;
+    outline: none;
+    text-decoration: none;
+
+    
+}
+a:hover{
+    color: #2663b3;
+}
+.loginpage2{
+    position: absolute;
+    width:550px;
+    height: 850px;
+    border: 1px solid black;
+    left: 450px;
+    border-radius: 10px;
+    top: 10px;
+    background-color: white;
+
+
+}
+.h{
+    font-size: 24px;
+}
+.inital{
+    width: 100px;
+     height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}        
+.fullname{ 
+
+    padding-left: 10px;
+        height: 35px;
+      width: 330px;
+      margin-top: 10px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   font-size: 16px;
+    margin-bottom: 10px;
+}
+.inital,.fullname,.mnumber:focus{
+    outline: none;
+}
+.mnumber{
+    padding-left: 10px;
+    height: 35px;
+  width: 450px;
+  margin-top: 10px;
+border-radius: 5px;
+border: 1px solid gray;
+font-size: 16px;
+}
+.h3{
+    font-size: 18px;
+}
+
+    @media screen and (max-width:750px){
+        .loginpage2{
+            left:40px;
+        }
+
+        .loginpage{
+            left:40px;
+        }
+        
+    }
